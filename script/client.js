@@ -5,7 +5,7 @@ async function listadisnaymovie() {
     let arraymovies =trasformazionemovie.data
     let contenitorepg = document.getElementById('container')
     for (let i = 0 ; i < arraymovies.length ; i++){
-        contenitorepg.innerHTML += `<div class="stili"><img class="arrey-item" src="${arraymovies[i].imageUrl}" alt="disney"> ${arraymovies[i].name}</div>`
+        contenitorepg.innerHTML += `<div class="stili col-6 text-center"><img class="arrey-item" src="${arraymovies[i].imageUrl}" alt="disney"> ${arraymovies[i].name}</div>`
     }
 }
 

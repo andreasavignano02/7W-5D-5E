@@ -34,17 +34,18 @@ header{
     background-color: black;
     opacity: 0.75;
     color: white;
+    margin: 0 auto;
 }
 .arrey-item{
     width: 100%;
+    margin: 10px;
     background-size: cover;
 }
 /* footer */
 footer {
     width: 100%;
-    background-color: indigo;
+    background-color: indigo; /*in onore di eric*/
     color: white;
     text-align: center;
     padding: 10px;
 }
-/* media query */
